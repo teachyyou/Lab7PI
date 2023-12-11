@@ -2,7 +2,7 @@
 {
     public static void Main()
     {
-        string expression = 3; // Пример выражения в польской форме
+        string expression = "3 4 +"; // Пример выражения в польской форме
         double result = CalculateExpression(expression);
         Console.WriteLine("Результат: " + result);
     }
